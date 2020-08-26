@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: black;
+}
+.cards-game{
+    max-height: 300px;
+    max-width: 1250px;
+    margin: 50px auto;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.card{
+    height: 100%;
+    margin-right: 4px;
+}
+
+.card a{
+    display: block;
+    margin-bottom: 4px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+.img-link:hover{
+    -webkit-transform: scale(1.06);
+        -ms-transform: scale(1.06);
+        transform: scale(1.06);
+        transition: 0.3s;
+}
+
+
+.heading-link{
+    transition: 0.3s;
+    font-size: 12px;
+}
+.heading-link:hover{
+    color: blueviolet;
+}
+
+.viewer{
+    transition: 0.3s;
+    font-size: 11px;
+}
+
+.viewer:hover{
+    color: blueviolet;
+}
+
+.game-img{
+    max-width: 200px;
+    max-height: 250px;
+}
